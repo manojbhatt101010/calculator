@@ -20,6 +20,6 @@
     <string name="clear">C</string>
     <string name="ob">(</string>
     <string name="cb">)</string>
-    <string name="garbage">Simple calculator. Don not expect Much</string>
+    <string name="garbage">Simple calculator. Do not expect Much</string>
     <string name="backspace">del</string>
 </resources>
