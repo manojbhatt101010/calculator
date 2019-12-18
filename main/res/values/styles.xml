@@ -18,7 +18,7 @@
 
     <style name="equalStyle">
         <item name="android:textSize">35sp</item>
-        <item name="android:background">#dddddd</item>
+        <item name="android:background">#aaaaaa</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textColor">#005500</item>
     </style>
