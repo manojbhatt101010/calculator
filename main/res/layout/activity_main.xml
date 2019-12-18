@@ -51,10 +51,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                style="@style/buttonStyle"
-                android:id="@+id/dot"
-                android:onClick="addToExpression"
-                android:text="@string/dot"/>
+                style="@style/buttonStyle"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -97,9 +94,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 style="@style/buttonStyle"
-                android:id="@+id/minus"
+                android:id="@+id/divide"
                 android:onClick="addToExpression"
-                android:text="@string/minus"/>
+                android:text="@string/divide"/>
 
         </TableRow>
 
@@ -173,20 +170,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 style="@style/buttonStyle"
-                android:id="@+id/divide"
+                android:id="@+id/minus"
                 android:onClick="addToExpression"
-                android:text="@string/divide"/>
+                android:text="@string/minus"/>
 
         </TableRow>
 
         <TableRow
             android:layout_weight="1"
             android:gravity="center">
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                style="@style/buttonStyle"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -200,9 +192,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 style="@style/buttonStyle"
-                android:id="@+id/plus"
+                android:id="@+id/dot"
                 android:onClick="addToExpression"
-                android:text="@string/plus"/>
+                android:text="@string/dot"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -211,6 +203,14 @@
                 android:id="@+id/equals"
                 android:onClick="evaluateExpression"
                 android:text="@string/equals" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/buttonStyle"
+                android:id="@+id/plus"
+                android:onClick="addToExpression"
+                android:text="@string/plus"/>
 
         </TableRow>
 
